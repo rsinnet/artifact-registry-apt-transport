@@ -4,7 +4,7 @@ export PATH := /tmp/go/bin:$(PATH)
 export SHELL := env PATH=$(PATH) /bin/bash
 
 export DH_OPTIONS
-export DH_GOPKG := github.com/GoogleCloudPlatform/artifact-registry-apt-transport
+export DH_GOPKG := github.com/rsinnet/artifact-registry-apt-transport
 export CGO_ENABLED := 0
 export GOCACHE := /tmp/.cache
 export GO111MODULE := on

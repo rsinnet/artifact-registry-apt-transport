@@ -1,4 +1,4 @@
-module github.com/GoogleCloudPlatform/artifact-registry-apt-transport
+module github.com/rsinnet/artifact-registry-apt-transport
 
 go 1.16
 
