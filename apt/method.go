@@ -101,7 +101,12 @@ func (m *AptMethod) initClient() error {
 
 	var ts oauth2.TokenSource
 	ctx := context.Background()
+
+	token, fromEnv := os.LookupEnv("GOOGLE_ACCESS_TOKEN")
 	switch {
+	case fromEnv:
+		token := oauth2.Token{ AccessToken:  token}
+		ts = oauth2.StaticTokenSource(&token)
 	case m.config.serviceAccountJSON != "":
 		json, err := ioutil.ReadFile(m.config.serviceAccountJSON)
 		if err != nil {
