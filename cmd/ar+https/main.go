@@ -19,7 +19,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/GoogleCloudPlatform/artifact-registry-apt-transport/apt"
+	"github.com/rsinnet/artifact-registry-apt-transport/apt"
 )
 
 func main() {

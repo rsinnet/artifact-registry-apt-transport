@@ -1,3 +1,16 @@
+apt-transport-artifact-registry (1:20211010.00-g1) stable; urgency=medium
+
+  * Add environment variable to pass through static access token.
+
+ -- Ryan Sinnet <ryan@rwsinnet.com>  Sun, 10 Oct 2021 12:00:00 +0000
+
+
+apt-transport-artifact-registry (1:20210713.00-g1) stable; urgency=medium
+
+  * Add cloud-platform scope when using JSON credentials.
+
+ -- Google Cloud Team <gc-team@google.com>  Thu, 13 Jul 2021 12:00:00 +0000
+
 apt-transport-artifact-registry (1:20210304.00-g1) stable; urgency=medium
 
   * Initial commit.
