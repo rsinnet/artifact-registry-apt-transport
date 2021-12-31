@@ -1,5 +1,5 @@
 Source: apt-transport-artifact-registry
-Maintainer: Google Cloud Team <gc-team@google.com>
+Maintainer: Ryan Sinnet <ryan@rwsinnet.com>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.8
@@ -9,5 +9,5 @@ Package: apt-transport-artifact-registry
 Architecture: any
 Depends: ${misc:Depends}
 Description: Artifact Registry Apt transport
- Contains an apt transport that can be used to configure authenticated access
- to your Artifact Registry package repository.
+  Contains an apt transport that can be used to configure authenticated access
+  to your Artifact Registry package repository.
