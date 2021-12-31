@@ -1,3 +1,9 @@
+apt-transport-artifact-registry (1:20210713.00-g1-0rsinnet2) stable; urgency=medium
+
+  * Updating versioning scheme.
+
+ -- Ryan Sinnet <ryan@rwsinnet.com>  Fri, 31 Dec 2021 12:00:00 +0000
+
 apt-transport-artifact-registry (1:20210713.00-g1-0rsinnet1) stable; urgency=medium
 
   * Add environment variable to pass through static access token.
