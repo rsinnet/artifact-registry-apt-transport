@@ -10,7 +10,7 @@ export GOCACHE := /tmp/.cache
 export GO111MODULE := on
 
 %:
-	dh $@  --buildsystem=golang --with=golang
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
 
 override_dh_golang:
 	# We don't use any packaged dependencies, so skip dh_golang step.
