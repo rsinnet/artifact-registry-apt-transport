@@ -1,0 +1,5 @@
+/.debhelper/
+/apt-transport-artifact-registry.substvars
+/apt-transport-artifact-registry/
+/debhelper-build-stamp
+/files
