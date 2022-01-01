@@ -16,7 +16,7 @@ override_dh_golang:
 	# We don't use any packaged dependencies, so skip dh_golang step.
 
 override_dh_auto_build:
-	dh_auto_build -O--buildsystem=golang -- -ldflags="-s -w" -mod=readonly
+	dh_auto_build -O--buildsystem=golang -- -ldflags="-s -w" -mod=vendor
 
 override_dh_auto_install:
 	# Binary-only package.
